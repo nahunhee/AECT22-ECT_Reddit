@@ -1,9 +1,9 @@
 # Making the Invisible Visible
 
-Slide deck for **Making the Invisible Visible: Reframing How We See Educators' Professional Activity** (AECT 2022)
+Slide deck for **A Gentle Bootcamp for Beginning Teachers: Subreddit r/Teachers** (AECT 2022)
 
 ![](img/invisible.jpg)
 
 ### Abstract
 
-This paper investigates how researchers have studied educators' professional activities in terms of invisible labor. We conducted a systematic literature review of academic journal articles spanning 2011--2021 following PRISMA standards. From 16 identified articles, we developed a model of educators' invisible labor that includes categories of background, care, precarious, and identity labor as well as labor in a non-traditional sphere. We present these as five intersecting mechanisms of invisibility with applications for professional learning.
+Early career teachers experience numerous challenges during their transition into the profession. Reddit is a social media platform that allows early career teachers to gather around shared affinity while still being anonymous. This study explores how early career teachers participate in the r/Teachers subreddit through posts tagged as “New Teacher” content. Hand-coding of 2,445 posts created in 2021 showed that early career teachers primarily seek information and advice but also share personal stories. Early career teachers’ reasons for posting varied according to their background characteristics. This research has implications for using an anonymous online affinity space for early career teachers’ preparation and professional development.
