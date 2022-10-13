@@ -1,14 +1,14 @@
 ---
-title: "Making the Invisible Visible"
-subtitle: "Reframing How We See Educators’ Professional Activity"
-author: "Bret Staudt Willet & Dan He"
+title: "A Gentle Bootcamp for Beginning Teachers: Subreddit r/Teachers"
+subtitle: "Affinity and Anonymity Benefitting Beginning Teachers"
+author: "Hunhui Na & Bret Staudt Willet"
 date: "October 28, 2022"
 output:
   xaringan::moon_reader:
     lib_dir: libs
     seal: true
     css: [default, 'custom.css', 'custom-fonts.css']
-    nature:
+    nature: 
       titleSlideClass: [left, bottom]
       highlightStyle: github
       highlightLines: true
@@ -27,51 +27,40 @@ library(fontawesome)
 
 class: inverse, center, middle
 
-# `r fa("fas fa-images", fill = "#fff")`
-
-**View the slides:** 
-
-[bretsw.com/aect22-invisible-labor](https://bretsw.com/aect22-invisible-labor)
+# `r fa("far fa-compass", fill = "#fff")` <br><br> Background
 
 ---
 
-class: inverse, center, middle
 
-# `r fa("far fa-compass", fill = "#fff")` <br><br> Professional Learning
+# `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
 
----
-
-# `r fa("far fa-compass", fill = "#fff")` Professional Development
-
-```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
-include_graphics("img/workshop.jpg")
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/rteachers.png")
 ```
 
+* All things teacher-related!
+
+* Massive **anonymous** online space
 ---
 
-# `r fa("far fa-compass", fill = "#fff")` Informal Learning
+
+# `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
+
+- Tagging system
+```{r, out.width = "40%", echo = FALSE, fig.align = "center"}
+include_graphics("img/flairs.png")
+```
+* **New Teacher** tag
+---
+
+# `r fa("far fa-compass", fill = "#fff")` Affinity Space
 
 ```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
-include_graphics("img/digging.jpg")
+include_graphics("img/affinityspace.png")
 ```
 
----
 
-class: inverse, center, middle
-
-# `r fa("fas fa-comments", fill = "#fff")` <br><br> Informal Learning: Invisible?
-
----
-
-# `r fa("far fa-compass", fill = "#fff")` Invisible Labor
-
-```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
-include_graphics("img/invisible.jpg")
-```
-
---
-
-**Definition:** Invisible labor is...
+* Open space for people with the **common** interests or goals
 
 ---
 
@@ -81,24 +70,66 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("fas fa-book-open", fill = "#fff")` Systematic Literature Review
+# `r fa("fas fa-book-open", fill = "#fff")` Digital traces
 
-### System ~ Preparation Process
+* Collecting all posts in the r/Teachers created in 2021
 
-```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
-include_graphics("img/prep.jpg")
+```{r, out.width = "500px", echo = FALSE, fig.align = "center"}
+include_graphics("img/digitaltraces.jpeg")
 ```
 
 ---
 
-# `r fa("fas fa-book-open", fill = "#fff")` Systematic Literature Review
+# `r fa("fas fa-book-open", fill = "#fff")` Digital traces
 
-### System ~ Preparation Process: PRISMA standards
+* Collecting all posts in the r/Teachers created in 2021
 
-```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
-include_graphics("img/fig1-PRISMA-flow-chart.jpg")
-```
+* Filtered to contain "New Teacher" posts -> 2,806 
 
+---
+ 
+
+# `r fa("fas fa-book-open", fill = "#fff")` Digital traces
+
+* Collecting all posts in the r/Teachers created in 2021
+
+* Filtered to contain "New Teacher" posts -> 2,806 
+
+* Removed deleted or removed posts -> 2,445
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Digital traces
+
+* Collecting all posts in the r/Teachers created in 2021
+
+* Filtered to contain "New Teacher" posts -> 2,806 
+
+* Removed deleted or removed posts -> 2,445
+
+* Python & Reddit API
+
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Developing Codebooks
+
+* Hand-coded 2,445 posts
+
+
+* Topics (15)
+  - Critique
+  - Personal story
+  - Teachers’ lived experiences
+  - Teaching Pedagogy & Philosophy
+  - Question
+  - Education Policy: Curriculum & Evaluation
+
+
+* Demographic codes (3)
+  - Career stage (pre-service / in-service teachers)
+  - Employment status (regular / temporary job positions)
+  - School-level (pre-K / primary / secondary / higher ed)
+ 
 ---
 
 class: inverse, center, middle
@@ -107,71 +138,91 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("fas fa-book-open", fill = "#fff")` Overview of Articles
+# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
 
---
-
-- Year:
-
---
-
-- Country:
-
---
-
-- Level:
-
---
-
-- Methodology: 
+```{r, out.width = "700px", echo = FALSE, fig.align = "center"}
+include_graphics("img/graph1.png")
+```
+ 
+**Questions: 82% of posts**
 
 ---
 
-# `r fa("fas fa-book-open", fill = "#fff")` Examples of Invisibility
+# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
+```{r, out.width = "500px", echo = FALSE, fig.align = "center"}
+include_graphics("img/graph1.png")
+```
 
 
+
+“I’m a first-year teacher…there’s my elective class… This went great for the first few weeks, but now I have **kids napping, eating, and generally messing around** during the films… **I really don’t know what to do… What do I do?**”
 
 ---
 
-# `r fa("fas fa-network-wired", fill = "#fff")` Intersections of Invisibility
 
-```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
-include_graphics("img/fig2-articles-intersections-plot.png")
+# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
+```{r, out.width = "500px", echo = FALSE, fig.align = "center"}
+include_graphics("img/graph1.png")
+```
+
+
+
+“New teacher fresh out of college. I have an **Instagram**… forgot it’s set to public. This Saturday morning, I got a flood of notifications of students who apparently found the account and gave it a follow…  **I want a professional life and personal life balance.**”
+
+---
+
+# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
+**Career stage (Pre-service and In-service teachers)**
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/graph2.png")
 ```
 
 ---
 
-# `r fa("fas fa-network-wired", fill = "#fff")` Invisible Labor Framework
+# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
+**Employment status (Full-time and sub/part-time teachers)**
 
-```{r, out.width = "240px", echo = FALSE, fig.align = "center"}
-include_graphics("img/fig2-articles-intersections-plot.png")
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/graph3.png")
 ```
 
---
+"… I'm scared they're going to put me on the **Do Not Use list for future schools**, which I'm sure will screw me over for later.”
 
-- **Background Labor:** How might educators’ efforts be overlooked? 
+---
 
---
+# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
+**School-level (Primary and secondary school)**
 
-- **Care Labor:** How might the emotional costs of educators’ efforts be dismissed or trivialized? 
-
---
-
-- **Identity Labor:** How might some educators’ efforts be disproportionately burdensome? 
-
---
-
-- **Precarious Labor:** How might educators’ efforts carry risk? 
-
---
-
-- **Labor in a Non-Traditional Space:** How might educators’ efforts occur where they never have before? 
-
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/graph4.png")
+```
+ 
 ---
 
 class: inverse, center, middle
 
 # `r fa("fas fa-thumbtack", fill = "#fff")` Significance
+
+
+**Takeaways:** 
+
+  Shared affinity & Moderated anonymity
+  
+  A lot of question posts (82%), but varying across educators' contexts
+  
+  Nested affinity spaces, Granularity
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-exclamation", fill = "#fff")` One more thing
+
+**Beginning teachers' challenges?** 
+
+```{r, out.width = "700px", echo = FALSE, fig.align = "center"}
+include_graphics("img/Challenge_Comparision.png")
+```
 
 ---
 
@@ -183,8 +234,10 @@ class: inverse, center, middle
 
 <hr>
 
-**Bret Staudt Willet** <br> `r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("twitter", fill = "#fff")` [@bretsw](https://twitter.com/bretsw) <br> `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
+**Hunhui Na** <br>`r fa("envelope", fill = "#fff")` [hn20b@fsu.edu](mailto:hn20b@fsu.edu) | `r fa("twitter", fill = "#fff")` [@HunhuiN](https://twitter.com/HunhuiN) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/nahunhee/)
 
 <br>
 
-**Dan He** <br>`r fa("envelope", fill = "#fff")` [dhe@fsu.edu](mailto:dhe@fsu.edu) | `r fa("twitter", fill = "#fff")` [@Dan__He](https://twitter.com/Dan__He)
+**Bret Staudt Willet** <br> `r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("twitter", fill = "#fff")` [@bretsw](https://twitter.com/bretsw) <br> `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
+
+
