@@ -1,8 +1,10 @@
-# Making the Invisible Visible
+# A Gentle Bootcamp for Beginning Teachers: Subreddit r/Teachers
 
 Slide deck for **A Gentle Bootcamp for Beginning Teachers: Subreddit r/Teachers** (AECT 2022)
 
-![](img/invisible.jpg)
+https://nahunhee.github.io/AECT22-ECT_Reddit/
+
+![](img/title.png)
 
 ### Abstract
 
