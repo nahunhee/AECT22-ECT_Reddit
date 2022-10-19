@@ -199,8 +199,7 @@ include_graphics("img/graph2.png")
 ```{r, out.width = "85%", echo = FALSE, fig.align = "center"}
 include_graphics("img/graph3.png")
 ```
-"… I'm scared they're going to put me on the **Do Not Use list for future schools**, which I'm sure will screw me over for later.”
-
+ 
 ---
 
 # `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
