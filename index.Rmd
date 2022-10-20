@@ -31,6 +31,30 @@ class: inverse, center, middle
 
 ---
 
+# `r fa("far fa-compass", fill = "#fff")` Reddit?
+
+```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
+include_graphics("img/title.png")
+```
+
+* Reddit: A popular **social media platform**
+
+
+---
+
+
+# `r fa("far fa-compass", fill = "#fff")` Reddit?
+
+```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
+include_graphics("img/title.png")
+```
+
+* Reddit: A popular **social media platform**
+
+* Lots of **discussion forums**
+
+
+---
 
 # `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
 
@@ -38,7 +62,7 @@ class: inverse, center, middle
 include_graphics("img/rteachers.png")
 ```
 
-* All things teacher-related!
+* Theme: **All things teacher-related**
 
  
 ---
@@ -47,17 +71,35 @@ include_graphics("img/rteachers.png")
 # `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
 
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
-include_graphics("img/rteachers.png")
+include_graphics("img/rteachers_anonymous.png")
 ```
 
-* All things teacher-related!
+* Theme: **All things teacher-related**
 
-* Massive **anonymous** online space
+* **Anonymous** online space
+ 
 ---
+
 
 # `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
 
-- Tagging system
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/rteachers_tag.png")
+```
+
+* Theme: **All things teacher-related**
+
+* **Anonymous** online space
+
+* **Tag system**
+
+
+---
+ 
+
+# `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
+
+- 15 tags(flairs)
 ```{r, out.width = "40%", echo = FALSE, fig.align = "center"}
 include_graphics("img/flairs.png")
 ```
@@ -66,7 +108,7 @@ include_graphics("img/flairs.png")
 
 # `r fa("far fa-compass", fill = "#fff")` r/Teachers subreddit
 
-- Tagging system
+- 15 tags(flairs)
 ```{r, out.width = "40%", echo = FALSE, fig.align = "center"}
 include_graphics("img/flairs.png")
 ```
@@ -147,11 +189,53 @@ include_graphics("img/digitaltraces.jpeg")
   - ...
 
 
-* **Demographic codes (3)**
+* **Context information (3)**
   - Career stage (pre-service / in-service teachers)
   - Employment status (regular / temporary job positions)
   - School-level (pre-K / primary / secondary / higher ed)
  
+---
+
+# `r fa("fas fa-book-open", fill = "#fff")` Developing Codebooks
+
+
+Coding example: 
+
+"I am a first-year U.S. history **sub teacher at a high school**... Currently dealing with **a lot of disrespect, negative behavior**... I am interested in **any advice on classwork management** that people have found effective teaching... Any other resources, guides, assignments, rubrics projects, etc?"
+
+
+---
+
+
+# `r fa("fas fa-book-open", fill = "#fff")` Developing Codebooks
+
+
+Coding example: 
+
+"I am a first-year U.S. history **sub teacher at a high school**... Currently dealing with **a lot of disrespect, negative behavior**... I am interested in **any advice on classwork management** that people have found effective teaching... Any other resources, guides, assignments, rubrics projects, etc?"
+
+</br>
+</br>
+
+* Topic: Question, Personal story, Teaching pedagogy & Philosophy
+
+---
+
+
+# `r fa("fas fa-book-open", fill = "#fff")` Developing Codebooks
+
+
+Coding example: 
+
+
+"I am a first-year U.S. history **sub teacher at a high school**... Currently dealing with **a lot of disrespect, negative behavior**... I am interested in **any advice on classwork management** that people have found effective teaching... Any other resources, guides, assignments, rubrics projects, etc?"
+
+</br>
+</br>
+
+* Topic: Question, Personal story, Teaching pedagogy & Philosophy
+
+* Context: In-service, substitute teacher, secondary school
 ---
 
 class: inverse, center, middle
@@ -163,41 +247,47 @@ class: inverse, center, middle
 # `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
 
 ```{r, out.width = "85%", echo = FALSE, fig.align = "center"}
-include_graphics("img/graph1.png")
+include_graphics("img/Figure1_new_color.png")
 ```
  
-**Question topics: 82%**
+<!-- **Question topics: 82%** -->
 
----
+<!-- --- -->
 
-# `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
-**Two examples**
-</br>
-</br>
+<!-- # `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts  -->
+<!-- **Two examples** -->
+<!-- </br> -->
+<!-- </br> -->
 
 
-“I’m a first-year teacher…there’s my elective class… This went great for the first few weeks, but now I have **kids napping, eating, and generally messing around** during the films… **I really don’t know what to do… What do I do?**”
-</br>
-</br>
-</br>
-</br>
-“New teacher fresh out of college. I have an **Instagram**… forgot it’s set to public... I got a flood of notifications of students who apparently found the account and gave it a follow…  **I want a professional life and personal life balance.**”
+<!-- “I’m a first-year teacher…there’s my elective class… This went great for the first few weeks, but now I have **kids napping, eating, and generally messing around** during the films… **I really don’t know what to do… What do I do?**” -->
+<!-- </br> -->
+<!-- </br> -->
+<!-- </br> -->
+<!-- </br> -->
+<!-- “New teacher fresh out of college. I have an **Instagram**… forgot it’s set to public... I got a flood of notifications of students who apparently found the account and gave it a follow…  **I want a professional life and personal life balance.**” -->
 
 
 ---
 
 # `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
 **Career stage (Pre-service and In-service teachers)**
-```{r, out.width = "85%", echo = FALSE, fig.align = "center"}
-include_graphics("img/graph2.png")
+
+* Personal story, Teachers' lived experiences, Teaching pedagogy & philosophy
+
+```{r, out.width = "80%", echo = FALSE, fig.align = "center"}
+include_graphics("img/Figure2_new_color.png")
 ```
 
 ---
 
 # `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
 **Employment status (Full-time and sub/part-time teachers)**
-```{r, out.width = "85%", echo = FALSE, fig.align = "center"}
-include_graphics("img/graph3.png")
+
+* Teachers' lived experiences, Teaching pedagogy & philosophy
+
+```{r, out.width = "80%", echo = FALSE, fig.align = "center"}
+include_graphics("img/Figure3_new_color.png")
 ```
  
 ---
@@ -205,7 +295,7 @@ include_graphics("img/graph3.png")
 # `r fa("fas fa-binoculars", fill = "#fff")` Topics of "New Teacher" Posts 
 **School-level (Primary and secondary school)**
 ```{r, out.width = "85%", echo = FALSE, fig.align = "center"}
-include_graphics("img/graph4.png")
+include_graphics("img/Figure4_new_color.png")
 ```
  
 ---
@@ -219,9 +309,18 @@ class: inverse, center, middle
 
   A lot of question posts (82%), but varying across educators' contexts
   
-  Shared affinity & Moderated anonymity
-  
-  Nested affinity spaces
+  Shared affinity & Moderated anonymity 
+---
+
+class: inverse, center, middle
+# Nested affinity space
+<!-- # `r fa("fas fa-exclamation", fill = "#fff")` Nested affinity space -->
+<!-- **Nested affinity space**  -->
+
+```{r, out.width = "700px", echo = FALSE, fig.align = "center"}
+include_graphics("img/nested.png")
+```
+
 ---
 
 class: inverse, center, middle
